@@ -8,7 +8,7 @@ const projectsHomeItems=
     {
         name:"Pizza Shop",
         img:require("../images/pizza.jpg"),
-        gitHubLink:"https://github.com/uzay54/FSWeb-S7-Challenge"
+        gitHubLink:"https://my-pizza-two.vercel.app/"
     }
 ]
 export default projectsHomeItems;
