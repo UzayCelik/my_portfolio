@@ -3,7 +3,7 @@ const projectsHomeItems=
     {
         name:"NASA",
         img:require("../images/nasa-2.jpg"),
-        gitHubLink:"https://github.com/uzay54/FSWeb-S6G3-Nasa"
+        gitHubLink:"https://my-nasa-three.vercel.app/"
     },
     {
         name:"Pizza Shop",
