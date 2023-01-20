@@ -4,7 +4,7 @@ export default function SkillsHome(){
     
     return(
         <div id="skills-home">
-            <h2>Becerilerim</h2>   
+            <h2>Yeteneklerim</h2>   
             <div id="f-end-cont-home">
                 {
                     skillHomeItems.map(item => {
