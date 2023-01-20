@@ -7,7 +7,7 @@ export default function ProfilHome(){
             <div id="profil-infos-cont">
                 <h3 style={{ color:"#001D6E" }}>Kişisel Bilgiler</h3>
                 <strong>Doğum Tarihim</strong><p>{personInfos.birthday}</p>
-                <strong>İkametgahım</strong><p>{personInfos.location}</p>
+                <strong>Konum</strong><p>{personInfos.location}</p>
 
                 <strong>Eğitim Durumum</strong><p>{personInfos.school} {personInfos.job} 1995-</p>
                 <p>{personInfos.schoolUniversite2} {personInfos.jobAnadolu} 2002-2003</p>
