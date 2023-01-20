@@ -12,7 +12,7 @@ export default function ProjectsHome(){
                         <div className="project-item-home">
                             <img className="project-item-home-img"  src={item.img} alt="res"/><br/>
                             <strong>{item.name}</strong><br/>
-                            <a href={item.gitHubLink} style={{ textDecoration: 'none',color:"blue" }}>
+                            <a href={item.gitHubLink} target="_blank" style={{ textDecoration: 'none',color:"blue" }}>
                                 {item.name} projemi Görüntüleyebilirsiniz
                             </a>
                         </div>
