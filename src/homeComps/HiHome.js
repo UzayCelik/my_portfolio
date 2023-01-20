@@ -8,8 +8,8 @@ export default function HiHome(){
             <p>Şu an İstanbul Teknik Üniversitesi Uçak Mühendisliği ve Uzay Mühendisliği bölümlerinde öğrenim görmekteyim.</p>
             <p>React ile Front-End projeleri geliştirmekteyim.</p>
             <nav id="github-linkedin">
-                <a href={personInfos.gitHub} style={{ textDecoration: 'none',color:"red" }}>Github </a>
-                <a href={personInfos.linkedin} style={{ textDecoration: 'none',color:"blue" }}>Linkedin</a>                      
+                <a href={personInfos.gitHub} target="_blank" style={{ textDecoration: 'none',color:"red" }}>Github </a>
+                <a href={personInfos.linkedin} target="_blank" style={{ textDecoration: 'none',color:"blue" }}>Linkedin</a>                      
             </nav>
         </div>
         <div id="home-main-img-cont-a">
