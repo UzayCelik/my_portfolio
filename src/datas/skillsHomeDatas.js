@@ -1,0 +1,32 @@
+const skillHomeItems=
+[
+    {
+        name:"JavaScript",
+        img:require("../images/js.png")
+    },
+    {
+        name:"React",
+        img:require("../images/react.png")
+    },
+    {
+        name:"Redux",
+        img:require("../images/redux.png")
+    },
+    {
+        name:"Cisco",
+        img:require("../images/cisco.jpg")
+    },
+    {
+        name:"VMWare",
+        img:require("../images/vmware.png")
+    },
+    {
+        name:"Exchange",
+        img:require("../images/exchange.png")
+    },
+    {
+        name:"CRM",
+        img:require("../images/crm.png")
+    }
+]
+export default skillHomeItems;
