@@ -77,6 +77,7 @@ export default function Home(){
                         </div>
                         <div id="mail-body-cont">
                             <strong>Lütfen Mesajınızı Giriniz</strong><br/>
+                            <p><strong>Mail Uygulamasına Yönlendirileceksiniz</strong></p>
                             <textarea type="textarea" name="body" 
                             value={connectForm.body} onChange={handleChange} 
                             placeholder="Lütfen Mesajınızı Giriniz"/>
@@ -86,7 +87,7 @@ export default function Home(){
                 <button 
                 onClick={()=>{setConnectForm({subject:"",body:""})}}
                 disabled={(connectForm.body.length===0 && connectForm.subject.length===0)}>Mesajı Sil</button>
-                <p><strong>Mail Uygulamasına Yönlendirileceksiniz</strong></p>
+                
                 
             </div> 
         </div>
